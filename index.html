@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title> Bhagalpur College of Engineering Robotics Club</title>
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: #f7fafc; color: #222;}
+    header { background: #1b4965; color: #fff; padding: 40px 0 20px 0; text-align: center; }
+    header h1 { margin: 0 0 12px 0; }
+    nav { background: #62b6cb; padding: 12px 0; text-align: center;}
+    nav a {
+      color: #fff;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover { text-decoration: underline; }
+    .container { max-width: 1000px; margin: 32px auto; background: #fff; box-shadow: 0 0 20px #e9ecef; padding: 28px; border-radius: 10px;}
+    h2 { color: #2b6777; margin-top: 0; border-bottom: 1px solid #eaf6fb; padding-bottom: 8px;}
+    .officer-list, .event-list { padding: 0; list-style: none; }
+    .officer-list li, .event-list li { margin-bottom: 12px; }
+    .gallery { display: flex; gap: 20px; flex-wrap: wrap; justify-content: start; }
+    .gallery img { width: 160px; height: 110px; object-fit: cover; border-radius: 6px; }
+    .membership, .contact { margin-top: 20px; }
+    .membership ul { margin-left: 16px; }
+    form input, form textarea { width: 98%; margin-bottom: 10px; padding: 7px; border: 1px solid #ccc; border-radius: 5px;}
+    form button { background: #1b4965; color: #fff; border: none; padding: 9px 23px; border-radius: 5px; cursor: pointer;}
+    form button:hover { background: #145974;}
+    footer { margin-top: 30px; background: #dfecf3; color: #123; text-align: center; padding: 14px;}
+    @media(max-width: 700px) {
+      .container { padding: 10px; }
+      .gallery { flex-direction: column; align-items: center;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1> DEPARTMENT OF ELECTRICAL ENGINEERING</h1>
+    <p>Esros Club <pre> sabour NH-80 road</pre></p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#events">Events</a>
+    <a href="#coordinators">coordinators</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#student ">Membership</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We’re the Esros students, where creativity meets technology! Our mission is to empower students to design, build, and compete with robots, develop teamwork and engineering skills, and have fun while learning. All majors and skill levels are welcome—whether you’re a novice or a robotics pro!</p>
+    </section>
+
+    <section id="events">
+      <h2>Upcoming Events</h2>
+      <ul class="event-list">
+        <li>
+          <strong>Intro to Arduino Workshop</strong> &mdash; Sept 6, 2025, 4pm, Room 101<br>
+          Beginner’s hands-on with microcontrollers.
+        </li>
+        <li>
+          <strong>Campus Robot Race</strong> &mdash; Oct 2, 2025, 3pm, Main Quad<br>
+          Compete for prizes by building the fastest bot.
+        </li>
+      </ul>
+    </section>
+
+    <section id="coordinators">
+      <h2>Club coordinators</h2>
+      <ul class="coordinators-list">
+        <li><strong>President:</strong> Md Arman Ali</li>
+        <li><strong>Vice President:</strong> Jordan Philips</li>
+        <li><strong>Treasurer:</strong>Sahil Kureshi </li>
+        <li><strong>Secretary:</strong> Vidhu Arya</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?fit=crop&w=500&q=80" alt="Robotics Team">
+        <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?fit=crop&w=500&q=80" alt="Workshop">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=500&q=80" alt="Competition">
+      </div>
+    </section>
+
+    <section id="membership" class="membership">
+      <h2>Membership</h2>
+      <p>Want to join? Enjoy:</p>
+      <ul>
+        <li>Workshops and hands-on learning</li>
+        <li>Access to club resources and labs</li>
+        <li>National competitions</li>
+        <li>bootcamps on drone and allied technology</li>
+        <li>hands on experience with industry visit</li>
+        <li>Networking with passionate peers</li>
+      </ul>
+      <p><strong>Dues:</strong> ₹100/semester. <em>All are welcome!</em></p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="mobile number" placeholder="Mobile No." required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p>Email:rijvansibaiya@gmail.com</p>
+      <p>Instagram: arman_sheikh2k24</p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 esros club. All rights reserved.
+  </footer>
+</body>
+</html>
+    
